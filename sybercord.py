@@ -38,7 +38,7 @@ def zphisher():
     
 def usserecon():
      if not os.path.exists("userrecon"):
-        os.system("git clone https://github.com/htr-tech/zphisher.git")
+        os.system("git clone https://github.com/wishihab/userrecon.git")
      os.chdir("userrecon")
      print("loading...")
      time.sleep(3)
