@@ -40,6 +40,7 @@ def usserecon():
      if not os.path.exists("userrecon"):
         os.system("git clone https://github.com/wishihab/userrecon.git")
      os.chdir("userrecon")
+    os.system("clear")
      print("loading...")
      time.sleep(3)
      os.system("clear")
